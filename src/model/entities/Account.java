@@ -20,10 +20,6 @@ public class Account {
 		return number;
 	}
 
-	public void setNumber(Integer number) {
-		this.number = number;
-	}
-
 	public String getHolder() {
 		return holder;
 	}
@@ -34,10 +30,6 @@ public class Account {
 
 	public Double getWithdrawLimit() {
 		return withdrawLimit;
-	}
-
-	public void setWithdrawLimit(Double withdrawLimit) {
-		this.withdrawLimit = withdrawLimit;
 	}
 
 	public Double getBalance() {
